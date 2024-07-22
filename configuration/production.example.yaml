@@ -1,0 +1,12 @@
+application:
+  host: 0.0.0.0
+  support_email: "support@example.com"
+  admin_email: "admin@example.com"
+  welcome_email: "welcome@example.com"
+  smtp_username: "emailer"
+  smtp_password: "password"
+  smtp_host: "localhost"
+  smtp_port: 1025
+database:
+  require_ssl: true
+

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Login
+{% endblock title %}
+
+{% block content %}
+    <form method="post">
+        <fieldset>
+            <legend>User login</legend>
+            <p>
+            <label for="email">Email</label>
+            <input name="email" id="email" value="jin" />
+            </p>
+            <p>
+            <label for="password">Password</label>
+            <input name="password" id="password" type="password" value="hunter42" />
+            </p>
+        </fieldset>
+
+        <input type="submit" value="login" />
+
+        {% if next %}
+            <input type="hidden" name="next" value="{{next}}" />
+        {% endif %}
+    </form>
+{% endblock content %}
+

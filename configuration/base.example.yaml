@@ -1,0 +1,15 @@
+application:
+  port: 8000
+  host: 0.0.0.0
+  hmac_secret: "USE_SOME_RANDOM_PASSWORD_GENERATOR"
+database:
+  host: "127.0.0.1"
+  port: 5432
+  username: "postgres"
+  password: "password"
+  database_name: "tradesalsa"
+  require_ssl: false
+test:
+  secret_key: "USE_SOME_RANDOM_PASSWORD_GENERATOR"
+redis_uri: "redis://127.0.0.1:6379"
+

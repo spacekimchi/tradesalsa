@@ -1,0 +1,11 @@
+/target
+
+/configuration/base.yaml
+/configuration/local.yaml
+/configuration/production.yaml
+
+**/*.swp
+
+public/css/*
+
+.env
